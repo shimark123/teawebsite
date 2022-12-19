@@ -1,0 +1,97 @@
+#form {
+    background: linear-gradient(135deg, #94bbe9, #aeeece);
+
+}
+
+#train_name {
+    background-color: ;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#choice_of_ticket {
+    background-color: white;
+    margin: 5px;
+}
+
+#ad_ticket {
+    background-color: white;
+    margin: 5px;
+    padding-right: 5px;
+}
+
+#ch_ticket {
+    margin: 5px;
+    padding-right: 5px;
+}
+
+#duration {
+    margin: 6px;
+}
+
+#annualpass {
+    margin: 5px;
+}
+
+#foodtoken {
+    margin: 5px;
+}
+
+#add_order {
+
+
+    align-items: center;
+    padding: 6px 6px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+    margin: 10px 0;
+
+}
+
+#place_order {
+    align-items: center;
+    padding: 6px 6px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Bill */
+
+#bill {
+    background: linear-gradient(135deg, #94bbe9, #aeeece);
+    font-size: 30px;
+}
+
+/* Donations */
+
+#donations {
+    background: linear-gradient(135deg, #94bbe9, #aeeece);
+
+}
+
+#sub {
+    align-items: center;
+    padding: 6px 6px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+    margin: 10px 0;
+
+}
+
+#donations h2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+d

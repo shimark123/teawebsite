@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./teamuseum.js"></script>
+    <link rel="stylesheet" href="./teamuseum.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Museum</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <!--------------HEADER---------------->
+    <section class="Musuem">
+        <nav>
+            <a href="Home.html"><img src="./Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./Images/close.png" alt="interface picture" onclick="hideMenu()" class="menu-bar">
+
+                <ul>
+                    <li> <a href="./Home.html">Home</a></li>
+                    <li> <a href="./Tea Plantations.html">Tea Plantations</a></li>
+                    <li> <a href="./Tea Museum.html">Tea Musuem</a></li>
+                    <li> <a href="./By Products.html">By products</a></li>
+                    <li> <a href="./Sale Pages.html">Tea Sales</a></li>
+                    <li> <a href="./Purchase and Donate.html">Purchase and Donate</a></li>
+
+                </ul>
+            </div>
+            <img src="./Images/menu.png" alt="interface picture" onclick="showMenu()" class="menu-bar">
+
+        </nav>
+
+        <h1> Tea Museums</h1>
+    </section>
+    <!-- MIDDLE PART -->
+    <sectiont class="tea-museum-content">
+        <h1>Museums</h1>
+        <div class="row">
+
+            <div class="tea-museum-image">
+                <img src="./images/teamuseumkandy.jpg" alt="Tea Musuem Kandy">
+                <h2>Tea Musuem Kandy</h2>
+            </div>
+
+            <div class="tea-museum-image">
+                <img src="./images/hantanateamuseum.jpg" alt="Tea Museum Hantana">
+                <h2>Tea Museum Hantana</h2>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <section class="tea-museum-content1">
+            <div class="row">
+                <div>
+                    <p>The Ceylon Tea Museum is located in the former Hanthana Tea Factory,[1] which was originally
+                        constructed in 1925. It is situated 3 km (1.9 mi) south of Kandy.
+
+                        Hanthana was one of the first successful areas to cultivate tea following the failure of coffee
+                        production on the island. In 1959 the Tea Research Institute of Ceylon established a sub station
+                        on land leased from the Hanthana Estate, similar to the Passara sub station established in the
+                        1920s. The Hanthana Station was set up to cater to the needs of mid-country tea plantations with
+                        regard to the physiology, entomology of tea and in particular the identification of drought
+                        resistant clones and the insect pest shot-hole borer.</p>
+                </div>
+
+                <div class="map">
+                    <h1>Hantana Museum</h1>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7553348744837!2d80.63054511477492!3d7.268659394753429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae368a77d5cbf91%3A0xba828c0e203b5306!2sCeylon%20Tea%20Museum!5e0!3m2!1sen!2slk!4v1662557012915!5m2!1sen!2slk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+
+        <!-- FORM -->
+
+        <form id="form">
+            <p>
+            <h1 id="train_name">Train to Hantana</h1>
+            <label for="choice_of_ticket">Choice of Ticket</label>
+            <select name="choice_of_ticket" id="choice_of_ticket" style="width: 300px; height: 30px;">
+                <option value="local_pass">Local Pass</option>
+                <option value="foreign_pass">Foreign Pass</option>
+            </select>
+            </p>
+
+            <div id="numtickets">
+                <label for="ad_ticket"> No. Of Tickets(Adult)</label>
+                <input type="number" id="ad_ticket" name="ad_ticket" style="width: 120px; height: 22px;" min="0"
+                    max="200" value="0">
+
+                <label for="ch_ticket_10"> No. Of Tickets(Child - Below 15 yYrs)</label>
+                <input type="number" id="ch_ticket_10" name="ch_ticket_10" style="width: 120px; height: 22px;" min="0"
+                    max="200" value="0">
+
+                <label for="ch_ticket_6"> No. Of Tickets(Child - Below 6 Yrs)</label>
+                <input type="number" id="ch_ticket_6" name="ch_ticket_6" style="width: 120px; height: 22px;" min="0"
+                    max="200" value="0">
+
+            </div>
+
+
+            <br><br>
+
+            <div id="duration">
+                <label for="timed"> Duration :</label>
+
+                <input type="radio" name="timed" id="3days" value="3hours" checked> Three Hours
+
+                <input type="radio" name="timed" value="halfday" id="halfday"> Half Day
+
+                <input type="radio" name="timed" value="fullday" id="fullday"> Full Day
+
+            </div>
+
+            <div>
+
+                <label for="annualpass"> Annual Pass</label>
+                <input type="number" id="annualpass" name="annualpass" style="width: 120px; height: 22px;" min="0"
+                    max="200" value="0">
+
+                <label for="foodtoken"> Food Token</label>
+                <input type="number" id="foodtoken" name="foodtoken" style="width: 120px; height: 22px;" min="0"
+                    max="200" value="0">
+
+
+
+            </div>
+
+            <button type="submit" id="add_order">Add Order</button>
+            <button type="submit" id="place_order">Place Order</button>
+
+        </form>
+        <hr>
+        <form id="bill">
+            <h3>Total Bill</h3>
+            <hr>
+            <hr>
+            <p>Current Orders: <span id="p1"> 0 </span></p>
+
+            <p>Overall Orders: <span id="p2">0</span></p>
+
+            <p>Cost Of Current Orders: <span id="p3">0</span> LKR</p>
+
+            <p>Overall Cost: <span id="p4">0</span> LKR</p>
+            <hr>
+        </form>
+        <form id="donations">
+            <h2>Donations</h2>
+
+
+
+            <legend> <b>Donation amount</b></legend>
+            <div id="rd">
+                <p>
+                    <label for="amount"></label>
+                    <input type="radio" name="amount" id="amount" value="100">100 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="250">250 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="500">500 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="1000">1000 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="2500">2500 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="5000">5000 LKR
+                </p>
+
+                <p>
+                    <input type="radio" name="amount" id="amount" value="10000">10000 LKR
+                </p>
+
+            </div>
+
+
+
+            <label for="name"><b>Cardholder Name</b></label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="num"><b>Card Number</b></label>
+            <input type="text" placeholder="0140 - XXXX - XXXX - XXXX" name="num" id="num" required maxlength="16"
+                required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" id="email" required>
+
+            <label for=" exp"><b>Valid Through</b></label>
+            <input type="text" placeholder="MM/YY" name="exp" id="exp" min="08-22" maxlength="5" minlength="5" required>
+
+            <label for="cvc"><b>CVC</b></label>
+            <input type="password" name="cvc" id="cvc" maxlength="3" minlength="3" required>
+
+            <button id="sub"> Submit</button>
+
+        </form>
+        <hr>
+
+
+
+
+        <!-- ---------FOOTER--------- -->
+        <section class="footer">
+            <h1>About Us</h1>
+            <p>We Provide High Quality Tea.</p>
+            <div class="icon">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+            <p>By Shimark.. </p>
+        </section>
+
+
+
+
+
+
+</body>
+<!-- JAVASCRIPT -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</html>

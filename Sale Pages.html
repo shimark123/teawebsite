@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale Pages</title>
+
+
+</head>
+
+<body>
+    <!--------------HEADER---------------->
+    <section class="Sale-page-header">
+        <nav>
+            <a href="./Home.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./Images/close.png" alt="" onclick="hideMenu()" class="menu-bar">
+                <ul>
+                    <li> <a href="./Home.html">Home</a></li>
+                    <li> <a href="./Tea Plantations.html">Tea Plantations</a></li>
+                    <li> <a href="./Tea Museum.html">Tea Musuem</a></li>
+                    <li> <a href="./By Products.html">By products</a></li>
+                    <li> <a href="./Sale Pages.html">Tea Sales</a></li>
+                    <li> <a href="./Purchase and Donate.html">Purchase and Donate</a></li>
+
+                </ul>
+            </div>
+            <img src="./Images/menu.png" alt="" onclick="showMenu()" class="menu-bar">
+            </div>
+        </nav>
+
+        <h1>Tea Sales</h1>
+    </section>
+    <!-- MIDDLE PART -->
+    <section class="tea-sales-content">
+        <div class="row">
+            <div class="tea-sales">
+                <img src="./Images/Tazoo.jpg">
+
+                <p>People have been drinking tea forever. And for hundreds of years, blends never strayed far from the
+                    typical black, green, and Earl Greys you often find on store shelves.
+
+                    When our founder, Steven Smith, traveled the world, he realized there were bolder, more unique
+                    blends to brew. He discovered a plethora of mesmerizing flavors that global cultures and communities
+                    have cultivated, perfected, and brewed for centuries.</p>
+                <a href="Sale page 01.html">To Tazo's Land</a>
+            </div>
+            <div class="tea-sales">
+                <img src="./Images/Yogi_Tea_Logo.png">
+
+                <p>Yogi Tea was established in 1984 by Yogi Bhajan, a Kundalini yoga instructor and purported sexual
+                    assailant whose students named the tea brand.[2][3] Bhajan formulated the tea blend's original
+                    recipe which is based on Ayurvedic medicine. It consists of cinnamon, cardamom, ginger, cloves and
+                    black pepper</p>
+                <a href="./Sale Page 02.html">To Yogi Tea's Land</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ---------FOOTER--------- -->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>We Provide High Quality Tea</p>
+        <div class="icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <p>By Shimark.. </p>
+    </section>
+
+
+
+
+
+</body>
+<!-- JAVASCRIPT -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</html>

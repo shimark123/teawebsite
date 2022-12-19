@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./purchaseanddonate.css ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase and Donate</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!--------------HEADER---------------->
+    <section class="purchaseanddonate-header">
+        <nav>
+            <a href="./Home.html"><img src="./Images/logo.png" alt="marks"></a>
+
+            <div class="nav-links" id="navLinks">
+                <img src="./Images/close.png" alt="" onclick="hideMenu()" class="menu-bar">
+
+                <ul>
+                    <li> <a href="./Home.html">Home</a></li>
+                    <li> <a href="./Tea Plantations.html">Tea Plantations</a></li>
+                    <li> <a href="./Tea Museum.html">Tea Musuem</a></li>
+                    <li> <a href="./By Products.html">By products</a></li>
+                    <li> <a href="./Sale Pages.html">Tea Sales</a></li>
+                    <li> <a href="./Purchase and Donate.html">Purchase and Donate</a></li>
+
+                </ul>
+            </div>
+            <img src="./Images/menu.png" alt="" onclick="showMenu()" class="menu-bar">
+            </div>
+        </nav>
+
+        <h1>Purchase and Donate</h1>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header"> Our Store</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+
+                <img class="shop-item-image-1">
+
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">SriLanka Cricket Jersey</span>
+                <img class="shop-item-image" src="./Images/SL jersey.jpg" alt="Sri lanka jersey">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 2000</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="jersey_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sri Lanka Cricket Bottom</span>
+                <img class="shop-item-image" src="./Images/SL bottom.jpg" alt="Sri lanka bottom">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 2500</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="bottom_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Mug</span>
+                <img class="shop-item-image" src="./Images/mugs.jpg" alt="mug">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 1500</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="mug_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Mask</span>
+                <img class="shop-item-image" src="./Images/mask.jpg" alt="mask">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 600</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="mask_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Books</span>
+                <img class="shop-item-image" src="./Images/books.jpg" alt="books">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 1000</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="books_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Wallet</span>
+                <img class="shop-item-image" src="./Images/wallet.jpg" alt="wallet">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 2000</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="wallet_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Waterbottle</span>
+                <img class="shop-item-image" src="./Images/waterbottle.jpg" alt="waterbottle">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 1000</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="water_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Watch</span>
+                <img class="shop-item-image" src="./Images/watch.jpg" alt="watch">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">LKR 5000</span>
+                    <button class="btn btn-primary shop-item-button" type="button" id="watch_af">ADD TO
+                        FAVOURITES</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">FAVOURITES</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">LKR 0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button" id="order_favourites">Order Favourites</button>
+        <button class="btn btn-primary btn-loyalty" type="button">Check Loyalty</button>
+
+        <div id=>
+            <p id="space">
+
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <script src="./purchaseanddonate.js"></script>
+
+
+
+
+
+
+    <!-- ---------FOOTER--------- -->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>We Provide High Quality Tea</p>
+        <div class="icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <p>By Shimark.. </p>
+    </section>
+
+
+
+
+
+</body>
+<!-- JAVASCRIPT -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</html>
